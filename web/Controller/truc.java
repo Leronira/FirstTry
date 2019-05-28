@@ -14,4 +14,6 @@ public class Inscription extends HttpServlet {
         /* Affichage de la page d'inscription */
         this.getServletContext().getRequestDispatcher( VUE ).forward( request, response );
     }
+
+
 }
